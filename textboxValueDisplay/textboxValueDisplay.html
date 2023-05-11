@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Metin Kutusu Örneği</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		
+		h1 {
+			text-align: center;
+		}
+		
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		
+		input[type="text"] {
+			padding: 5px;
+			font-size: 16px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+		}
+		
+		button {
+			padding: 5px 10px;
+			font-size: 16px;
+			border-radius: 5px;
+			background-color: #007bff;
+			color: #fff;
+			border: none;
+			cursor: pointer;
+		}
+		
+		#netice {
+			margin-top: 20px;
+			padding: 10px;
+			font-size: 18px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Mətn qutusu</h1>
+	
+	<form>
+		<label for="myTextbox">Mətn Kutusu:</label>
+		<input type="text" id="myTextbox">
+		<button type="button" onclick="displayValue()">Nəticəni Göster</button>
+	</form>
+	
+	<div id="netice"></div>
+	
+	<script src="textboxValueDisplay.js"></script>
+</body>
+</html>
